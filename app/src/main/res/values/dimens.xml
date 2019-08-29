@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingMargin8">8dp</dimen>
+    <dimen name="paddingMargin16">16dp</dimen>
+    <dimen name="paddingMargin32">32dp</dimen>
+    <dimen name="paddingMargin64">64dp</dimen>
+
+    <dimen name="iconSize">20dp</dimen>
+
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="textRegular">14sp</dimen>
+    <dimen name="textMedium">16sp</dimen>
+    <dimen name="textLarge">20sp</dimen>
+    <dimen name="textExtraLarge">24sp</dimen>
+</resources>

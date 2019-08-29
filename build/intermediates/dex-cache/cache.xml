@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/2d67fdc8829680cd5e74821a07b09895c4c4e458/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="863b37c463df79f340b5d83bbbfc63ad25612e01">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_caf5056220d28124c18e777046a3c3d9a10fdfe2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/166afbe21b2a6d63502ba9179d39b549803708ee/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62a753106372595e671caef64184b81bc3a96934/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_a91b0b2f341f29e752c70a1298dfd5e624f25ea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/197438d6b2f084c1e82ba311e5862bb94234be64/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f200454bd6851899efe021d2a4673959986edaed">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56b3f8dfa50d61b6dcca1212197df943bfa30eeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_abf69a7cb1ae8584be501d8373b4bae7297c9346/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_746e23f65d19b0eadeb2ec6a264c6f02c0d4eea0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/e3e15a738cc64953d377571d2dd95d66ec6c7606/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d6399340139f67ce4faba06e97f256ef0d6817c0">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7be1ff1464f8da00b85c0b6799156f6f2eb3223/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_367c156d3214c0db8c422e00d58493969de1c1ee.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/c48754c89d9fd6aa624ca9a77b982a715e23991d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="869a1d15fa9d8e8aa36587b042f553c1baea46bc">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e2c715dcb53ad0c6dfe71c3ea397f0b583d9851/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/2f401baa61ce075ff2b796519a6f881f76b5da9f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="729a6a1975c19d7461378172c7932f5c57f1c3fe">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_74ee473aea02162a748a89b02d269955784def33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/0d266a9e65998e9b05413f0ee75a62fba8b4af0d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d90cb9610620b7631c75f1953a4956810edd4bed">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_435f74454bec4e31201302bdd285f2200ef82af7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea187be567344d2af1cc919904d0166edc8e2a74">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8370239279f45df5be5feefdf72624d9c1be211f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_6a7377b51673e222d9c57768beeedc7661d5ed6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/757e8fdeb959f7214d2fd8588f4b049733f68b67/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7b86f1beb2b3625c6a1a5da6b5fc5294b64aea9">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_525fc23adfa47adb0a20a6093205197e68a72655/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/3a61b41c77a55fa8c244257b29114815e53b8db1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2485a4d9357967fb69ff9ac323ca0e778c2c22fb">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e5b566d117c8dc01c5399e9f6f7d883b158c0fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/9e1367b6ade090048a90242d3a4e52f093942444/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="269771e258a0d07bc8f5213f1f5ed77e8f42d72f">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6bac3a3ae24fd78427806168475fc2c564407ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/de5e698daeb70d1cd9c4f23de2d89c7fc20c40f3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1cde19cbf9be88547ab4b7f03668eac5d91bd611">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6eebe44353d1a862345b6837fd9d06f5e6dd4e70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_473ee1385aea91322ac84fc2c92cdea824867af8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/e50782d093c84d71b85841a2e523b6d151080976/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e4a9d8510de319af17459d3ec70e23559b83495b">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_acafb135de5b31cda45a6c81e36a41ceca1250bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/135017e4c3f35807873d8eb17af14396483fda82/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="db0171d21d064bab7ad72685f3c7df40544b03a8">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_636196e98ae2d7ec60bc80a750ae4eeea9bc5b9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/70c4c320ed2a64f1528780187a1ea46a65a0ee03/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ff651ddb8608e9c4037f3d9ab475e9472abb2">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f650dfbc06ee8e5d8063c61f782d90d8e0e404e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/4c1a87b48720d617e973027d4a6018a3d8124faa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="df733e6865d662899ec247e8c3dbff3e0961b8a7">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_990a8321221d0e3e1cd911fc542865bfe0cd2bb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_367c156d3214c0db8c422e00d58493969de1c1ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7184fe1e52bfecdb9dbdb6633f02f47bece0d48d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_0a59293c061b6f56aa1865bfd19cf871c68a492e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/155f0d78d9caa9b14f8cbce2451b86ac350e991c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8602ab07133e6ee182726fa27588420dba9d6d55">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_615a52955c644ed29230da81e96098633263348a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/6854fa2b26e0ee8bbf79e54fa0ce714f8375e0fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd2e7a567260ca4e40c09ba330f4f2d318660554">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eaf7932c930a49767a2dd6074d3dd8ac9c5a20d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/3ec82a285de15492e4ddb2bb787c827b6d189b67/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="647502c39ed7ca9bbf22c22d0015c77e0d06e317">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf04626c3bfb26a33736f13c860cb029c461bfee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/a6d09ad8c823366e935b1ea9fb487ebeff562159/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8655e6077da9526c0c94bf063f1275430ce8574">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e2ee4da6a84805ea017ebd835bf79b938b0bc5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_fe982b1dea34ae835733ba269a1a28153ab7a003/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/6cebb8f51f1e6ac2f1fdc131c6c9de6699ac8eb4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da443aff9cd3c2cd75b957e0547e1ca2c4f30308">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e52fd02415675a90804f68332a9dcc163d6bf4e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/24458315ecc91cc7420876f501b73ba615237edc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7058bce7e91ddb18e2e07b0b699019039b87e47b">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83366ccca4f99b3570511b1eb2a4c1a68bd415a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/994d0fb425fa0bb46cc4b01ae33318b715869f1b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f04c539360eab734779eb9f529560427f3b89d5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_85f14b11425595eb7326a910534e71f11e4f2c78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_4652c89532ed2551eab7b90da8cfb7833ae5752d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_48b2705f0ff18875889b51cd039d5fb798db1abb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/ab92f1a37af70baed221374d111e44687c51f5cf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d89ed82aaf255418be7bca8d182fed5726af30c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/4347ad63d175b801fb6187198cf634677ee3cb48/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a94a06ec585c9423a3c03bde1f7bf9268f83d66">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb09766690fac932b13301f547d694a4b3ee401e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/24db1f57a1c194dcea1113f029b641d1b947bd2b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a911183570522956a9d96af5dc5021a2588d435d">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73d7ba0ed31960baaa867cabe1655ec3a0075937/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/15898a07995d497046ef488c16189b6cbae61928/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ceb30a3e7da4eda2d5277f08a5a8f7812178f91c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/0565eb597ce901a63192eb8bc31e407e2fda0fc7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d30ac0c26495d7264529e333cec806eec64dd6f3">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e9dc57cba05f860e4d21632d381832e01da6eeb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_c109c10c1d53be0a7dcb9349de68b5de0c373663/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/d436b1ee9305960b809aabc079dfde0d51e45456/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6fdbd1bd6503815f2cef20a9a137005e5953aad1">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_08bf4cd983b09fff4dc941510177e1e04cad0d46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/33955cce3d3211d5fc081a03b40dd534059bd73d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4df592bb18a9cf5fd2e081cf56e444f0495daf3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/b981a5bd833dbf29b1c79e2e64c7b77788280cb2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cbb26a4f659b17abc1f75ff735a607aa299697ac">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee1b06cac2e3906960f26319c4090b7ac1ea42e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="db09a97f4f0db8892c1a0111a4b966f97920d082">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0_56be0d4290541399cba4fd033e33bfc3eecc9432/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_bd63016aa386938030fdbe33547ab2b626148e7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/113b7c6784daeb73f4b094afc37daddda6822440/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4335458510d6f3976b8be773090ac6a706427b69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/6828bd86427520f9cea7c26d263199f008e68258/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2f02ba4e10cb167c1f5526053047f520a5bcb68f">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5edf991b9206c2492379523a5b81b0445d809fe2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/8efe62d572acec50a3a701f91a7e1259afb1c445/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d6ff091e2c6df07894e5b921671404047d70d3f7">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e95fbbdfbd3d6cc7e664de03bc1d65866ac6f938/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/fee68bf89e711c11ea1a18223818b9cbf348eea9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47bcd0b3eac50dbe2f150987250a6507e10ef28a">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_177712a1a88ac3f6f4104df07d606a82ebedbc97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/88687005aef8d1433bce2c2ff63348ee1e403f18/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2520dd452fb1f487eba29ccd2d44358f0b8da788">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c946dec0c5a48d946eb91433ef82452a8f2d7290/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/3cbe5497ba1c79043d378a995179b1d7b2c6aeeb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b102f892442929c3457de1ef6a94f5dda3dd8864">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_36da6ef1ca54bc4e7ede73669660a7ec3df87c33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbook/.android/build-cache/ab22a313954e8375f3854ac3749bb5b16eee3a41/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e9b8fd995f9c6c2caeb49827f0b52e0e8cc621e0">
+        <dex dex="/Users/macbook/Documents/Android/Projects/Libby/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02da3aae8770903b305c5af957dbc68014fe10de/classes.dex" />
+    </item>
+
+</items>

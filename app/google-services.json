@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585145194730",
+    "firebase_url": "https://libby-ae732.firebaseio.com",
+    "project_id": "libby-ae732",
+    "storage_bucket": "libby-ae732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585145194730:android:910ccf1c6b33c407",
+        "android_client_info": {
+          "package_name": "com.goodhabitstudio.libbyapp.libbyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585145194730-fpufdvpevb390ltjlmkubo3uk0m7hq86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodhabitstudio.libbyapp.libbyapp",
+            "certificate_hash": "bb4ca0cdf796d8b20f25dbfefc035efb78ea7f01"
+          }
+        },
+        {
+          "client_id": "585145194730-j75tdcssb8rjlo68mrl0hj8v07vnomgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdVKBjgPKf2xKqtod7bEluG9-YWeYyWv4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585145194730-j75tdcssb8rjlo68mrl0hj8v07vnomgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

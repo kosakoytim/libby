@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.goodhabitstudio.libbyapp.libbyapp.SignUpPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingMargin32"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        android:onClick="closePage"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/textExtraLarge"
+        android:text="@string/signup_title"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        />
+
+    <!--Name-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_form_name_label"
+        android:textColor="@color/colorTextBlack"
+        />
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_form_name_placeholder"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        />
+
+    <!--Email-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_form_email_label"
+        android:textColor="@color/colorTextBlack"
+        />
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_form_email_placeholder"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        />
+
+    <!--Password-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_form_password_label"
+        android:textColor="@color/colorTextBlack"
+        />
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_form_password_placeholder"
+        android:layout_marginBottom="@dimen/paddingMargin32"
+        android:inputType="textPassword"
+        />
+
+    <!-- Sign Up Button-->
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BasicButton.BlueBackground"
+        android:text="@string/signup_button"
+        android:onClick="signUp"
+        />
+
+
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:alpha="0.8"
+    android:gravity="center">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        android:alpha="1"
+        app:indicatorName="BallBeatIndicator"
+        app:indicatorColor="#dd2d4a"
+        />
+
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.goodhabitstudio.libbyapp.libbyapp.AddReadingPlanFirstPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/paddingMargin16"
+            android:paddingRight="@dimen/paddingMargin16"
+            android:layout_marginBottom="@dimen/paddingMargin16"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_back"
+                    android:layout_marginRight="@dimen/paddingMargin16"
+                    android:onClick="returnToHome"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_readingPlan"
+                    android:textColor="@color/colorTextBlack"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/paddingMargin16"
+            android:paddingRight="@dimen/paddingMargin16"
+            android:layout_marginBottom="@dimen/paddingMargin16"
+            >
+            <!--Step 1-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/circle_red_background"
+                    android:clickable="false"
+                    android:layout_marginBottom="@dimen/paddingMargin8"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Book"
+                    android:textSize="@dimen/textSmall"
+                    android:layout_gravity="start"
+                    />
+            </LinearLayout>
+
+            <!--Step 2-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:text="2"
+                    android:textColor="@color/colorTextDarkGrey"
+                    android:background="@drawable/circle_background"
+                    android:clickable="false"
+                    android:layout_marginBottom="@dimen/paddingMargin8"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reading Days"
+                    android:textSize="@dimen/textSmall"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <!--Step 3-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:text="3"
+                    android:textColor="@color/colorTextDarkGrey"
+                    android:background="@drawable/circle_background"
+                    android:clickable="false"
+                    android:layout_marginBottom="@dimen/paddingMargin8"
+                    android:layout_gravity="end"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Dates"
+                    android:textSize="@dimen/textSmall"
+                    android:layout_gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/paddingMargin16"
+            android:layout_marginRight="@dimen/paddingMargin16"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/paddingMargin16"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bookshelf"
+                    android:layout_marginTop="@dimen/paddingMargin16"
+                    android:layout_marginBottom="@dimen/paddingMargin16"
+                    />
+
+                <!--Book Title-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the title of the book?"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="@dimen/textSmall"
+                    android:paddingRight="@dimen/paddingMargin16"
+                    android:paddingLeft="@dimen/paddingMargin16"
+                    />
+                <EditText
+                    android:id="@+id/readingPlan1_bookTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Title"
+                    android:layout_marginBottom="@dimen/paddingMargin16"
+                    android:layout_marginLeft="@dimen/paddingMargin16"
+                    android:layout_marginRight="@dimen/paddingMargin16"
+                    />
+
+                <!--Author-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Who is the author(s)?"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="@dimen/textSmall"
+                    android:paddingRight="@dimen/paddingMargin16"
+                    android:paddingLeft="@dimen/paddingMargin16"
+                    />
+                <EditText
+                    android:id="@+id/readingPlan1_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Author(s)' name"
+                    android:layout_marginBottom="@dimen/paddingMargin16"
+                    android:layout_marginLeft="@dimen/paddingMargin16"
+                    android:layout_marginRight="@dimen/paddingMargin16"
+                    />
+
+                <!--Pages-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How many pages it has?"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="@dimen/textSmall"
+                    android:paddingRight="@dimen/paddingMargin16"
+                    android:paddingLeft="@dimen/paddingMargin16"
+                    />
+                <EditText
+                    android:id="@+id/readingPlan1_numOfPages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Number of pages"
+                    android:layout_marginBottom="@dimen/paddingMargin32"
+                    android:inputType="number"
+                    android:layout_marginLeft="@dimen/paddingMargin16"
+                    android:layout_marginRight="@dimen/paddingMargin16"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/paddingMargin16"
+                        android:layout_marginLeft="@dimen/paddingMargin16"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        style="@style/BasicButton.BlueBackground"
+                        android:text="Next"
+                        android:layout_marginRight="@dimen/paddingMargin16"
+                        android:layout_marginLeft="@dimen/paddingMargin16"
+                        android:onClick="toSecondPage"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

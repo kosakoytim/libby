@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.goodhabitstudio.libbyapp.libbyapp.LandingPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingMargin32"
+    >
+
+    <!--Logo Libby-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:src="@drawable/libby_redasset_4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/paddingMargin32"
+        />
+
+    <!--Gambar Buku-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/landingasset_5"
+        android:layout_marginBottom="@dimen/paddingMargin32"
+        />
+
+    <TextView
+        android:id="@+id/landingPage_moto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/landing_page_moto"
+        android:textAlignment="center"
+        android:textSize="@dimen/textMedium"
+        android:layout_marginBottom="@dimen/paddingMargin32"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        >
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/paddingMargin8"
+            android:layout_marginEnd="@dimen/paddingMargin8"
+            android:text="@string/login_button"
+            style="@style/BasicButton.BlueOutlined"
+            android:onClick="openLoginPage"
+            />
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/paddingMargin8"
+            android:layout_marginStart="@dimen/paddingMargin8"
+            style="@style/BasicButton.BlueBackground"
+            android:text="@string/signup_button"
+            android:onClick="openSignUpPage"
+            />
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@color/colorTextLightGrey"-->
+        <!--android:layout_marginBottom="@dimen/paddingMargin16"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/google_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--style="@style/BasicButton.GoogleButton"-->
+        <!--android:text="@string/google_button"-->
+        <!--android:onClick="signUpWithGoogle"-->
+        <!--/>-->
+
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaeaea"
+        android:alpha="0.8"
+        android:gravity="center">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AVLoadingIndicatorView"
+            android:visibility="visible"
+            android:alpha="1"
+            app:indicatorName="BallBeatIndicator"
+            app:indicatorColor="#dd2d4a"
+            />
+
+    </LinearLayout>
+</FrameLayout>
+

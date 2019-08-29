@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goodhabitstudio.libbyapp.libbyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_libbylauncher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Quick Survey -->
+        <activity android:name=".QuickSurvey1Page" />
+        <activity android:name=".QuickSurvey2Page" />
+        <!-- Main Activity -->
+        <activity
+            android:name=".LandingPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReadingPlanPage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AddReadingPlanFirstPage" />
+        <activity android:name=".AddReadingPlanSecondPage" />
+        <activity android:name=".AddReadingPlanThirdPage" />
+        <activity android:name=".ReadingSettingsPage"></activity>
+    </application>
+
+</manifest>

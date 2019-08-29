@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimary2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BasicButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textRegular</item>
+    </style>
+
+    <style name="BasicButton.BlueOutlined">
+        <item name="android:background">@drawable/blue_outlined_button</item>
+        <item name="android:textColor">@color/colorPrimary2</item>
+    </style>
+
+    <style name="BasicButton.NoOutlineBlue">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorPrimary2</item>
+    </style>
+
+    <style name="BasicButton.BlueBackground">
+        <item name="android:background">@drawable/blue_background_button</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="BasicButton.RedOutlined">
+        <item name="android:background">@drawable/red_outlined_button</item>
+        <item name="android:textColor">@color/colorPrimary1</item>
+    </style>
+
+    <style name="BasicButton.RedBackground">
+        <item name="android:background">@drawable/red_background_button</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="BasicButton.GoogleButton">
+        <item name="android:background">@drawable/google_button</item>
+        <item name="android:textColor">@color/colorTextDarkGrey</item>
+    </style>
+
+    <style name="RegularCardText">
+        <item name="android:textColor">@color/colorPrimary2</item>
+        <item name="android:textSize">@dimen/textRegular</item>
+    </style>
+
+    <style name="SmallCardText">
+        <item name="android:textColor">@color/colorTextDarkGrey</item>
+        <item name="android:textSize">@dimen/textSmall</item>
+    </style>
+
+
+</resources>

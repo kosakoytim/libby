@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:layout_marginBottom="20dp"
+    android:id="@+id/layout_current_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/paddingMargin16"
+    >
+    <!--Top Title Section-->
+    <TextView
+        style="@style/SmallCardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingMargin8"
+        android:text="@string/top_label"
+        android:paddingLeft="@dimen/paddingMargin16"
+        android:paddingRight="@dimen/paddingMargin16"
+        />
+
+    <TextView
+        android:id="@+id/nowReadBook_bookTitle"
+        style="@style/RegularCardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingMargin8"
+        android:maxLines="2"
+        android:text="@string/placeholder_bookTitle"
+        android:paddingLeft="@dimen/paddingMargin16"
+        android:paddingRight="@dimen/paddingMargin16"
+        />
+
+    <TextView
+        android:id="@+id/nowReadBook_bookAuthor"
+        style="@style/SmallCardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        android:text="@string/placeholder_bookAuthor"
+        android:paddingLeft="@dimen/paddingMargin16"
+        android:paddingRight="@dimen/paddingMargin16"
+        />
+
+    <!--Progress & Reading Plan-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingMargin16">
+        <!-- Left Progress Bar-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/paddingMargin16"
+            android:paddingLeft="@dimen/paddingMargin16"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin8"
+                android:text="@string/progress_label"
+                style="@style/SmallCardText"
+                android:textAlignment="center"
+                />
+            <com.github.lzyzsd.circleprogress.DonutProgress
+                android:id="@+id/page_progress"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                custom:donut_progress="100"
+                android:layout_gravity="center"
+                custom:donut_finished_color="@color/colorPrimary2"
+                custom:donut_unfinished_color="@color/colorTextLightGrey"
+                custom:donut_text="@string/placeholder_progress"
+                />
+
+        </LinearLayout>
+
+        <!-- Right Reading Plan -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/paddingMargin16"
+            android:paddingRight="@dimen/paddingMargin16"
+            >
+            <!--Reading Day-->
+            <TextView
+                style="@style/SmallCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin8"
+                android:text="@string/readingDay_label" />
+
+            <TextView
+                android:id="@+id/nowReadBook_readingDay"
+                style="@style/RegularCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin16"
+                android:maxLines="2"
+                android:text="@string/placeholder_readingDay" />
+
+            <!--Reading Time-->
+            <TextView
+                style="@style/SmallCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin8"
+                android:text="@string/readingHour_label" />
+
+            <TextView
+                android:id="@+id/nowReadBook_readingHour"
+                style="@style/RegularCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin8"
+                android:maxLines="2"
+                android:text="@string/placeholder_readingHour" />
+
+            <TextView
+                style="@style/SmallCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:text="Update" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin16"
+                >
+                <EditText
+                    android:id="@+id/readingProgress_finishedPages"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textSize="@dimen/textExtraLarge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slash"
+                    android:textSize="@dimen/textMedium"
+                    />
+                <TextView
+                    android:id="@+id/readingProgress_totalPages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_total_pages"
+                    android:textSize="@dimen/textMedium"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTextLightGrey"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/updateProgressButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/updateProgress_button"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary2"
+            android:onClick="showReadingProgressDialog"
+            />
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

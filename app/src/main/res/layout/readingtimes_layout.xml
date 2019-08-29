@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/paddingMargin16"
+    android:paddingRight="@dimen/paddingMargin16"
+    android:layout_marginBottom="@dimen/paddingMargin16"
+    >
+    <TextView
+        android:id="@+id/readingTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:text="09.00"
+        android:textSize="@dimen/textMedium"
+        android:drawableLeft="@drawable/ic_time"
+        android:drawablePadding="@dimen/paddingMargin16"
+        />
+    <ImageView
+        android:id="@+id/editReadingTimesButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_edit"
+        />
+</RelativeLayout>

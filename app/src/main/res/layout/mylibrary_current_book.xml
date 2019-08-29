@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:id="@+id/layout_current"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddingMargin16"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/numberOfFinishedPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="@string/placeholder_finished_pages"
+                    android:textColor="@color/colorPrimary1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textExtraLarge"
+                    android:text="@string/slash"
+                    android:textColor="@color/colorTextBlack"
+                    />
+                <TextView
+                    android:id="@+id/totalPages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textLarge"
+                    android:text="@string/placeholder_total_pages"
+                    android:textColor="@color/colorPrimary2"
+                    />
+            </LinearLayout>
+            <TextView
+                style="@style/SmallCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_pages"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/currentBook_topLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/currentBook_topLabel"
+                style="@style/SmallCardText"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/currentBook_topLabel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/paddingMargin8"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="10dp"
+                    android:text="0"
+                    style="@style/SmallCardText"
+                    />
+
+                <TextView
+                    android:textSize="10dp"
+                    android:id="@+id/currentBook_topLabel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/paddingMargin8"
+                    android:layout_marginLeft="5dp"
+                    android:text="day(s)"
+                    style="@style/SmallCardText"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/currentBook_bookTitle"
+                style="@style/RegularCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingMargin8"
+                android:maxLines="1"
+                android:text="@string/placeholder_bookTitle"
+                />
+
+            <TextView
+                android:id="@+id/currentBook_bookAuthor"
+                style="@style/SmallCardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_bookAuthor"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTextLightGrey"
+        />
+</LinearLayout>
+</android.support.v7.widget.CardView>

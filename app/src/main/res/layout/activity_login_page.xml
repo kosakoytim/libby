@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.goodhabitstudio.libbyapp.libbyapp.LoginPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingMargin32"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        android:onClick="closePage"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/textExtraLarge"
+        android:text="@string/login_title"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        />
+
+    <!--Email-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_form_email_label"
+        android:textColor="@color/colorTextBlack"
+        />
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_form_email_placeholder"
+        android:layout_marginBottom="@dimen/paddingMargin16"
+        android:inputType="textEmailAddress"
+        />
+
+    <!--Password-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_form_password_label"
+        android:textColor="@color/colorTextBlack"
+        />
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_form_password_placeholder"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/paddingMargin32"
+        />
+
+    <!-- Login Button-->
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BasicButton.RedBackground"
+        android:text="@string/login_button"
+        android:onClick="login"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:alpha="0.8"
+    android:gravity="center">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        android:alpha="1"
+        app:indicatorName="BallBeatIndicator"
+        app:indicatorColor="#dd2d4a"
+        />
+
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Libby</string>
+    <string name="splash_screen_moto">More than just a reading app</string>
+    <string name="landing_page_moto">Explore the world through reading</string>
+
+    <!--Landing Page : Button Text-->
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="google_button">Sign Up with Google</string>
+
+    <!--Main Page : Bottom Navigation Item-->
+    <string name="menu_home">Home</string>
+    <string name="menu_mylibrary">My Library</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--Sign Up Page-->
+    <string name="signup_title">Sign Up</string>
+    <string name="signup_form_name_label">Name</string>
+    <string name="signup_form_name_placeholder">Your name</string>
+    <string name="signup_form_email_label">Email</string>
+    <string name="signup_form_email_placeholder">Your email</string>
+    <string name="signup_form_password_label">Password</string>
+    <string name="signup_form_password_placeholder">Your password</string>
+
+    <!--Login Page-->
+    <string name="login_title">Login</string>
+    <string name="login_form_email_label">Email</string>
+    <string name="login_form_email_placeholder">Your email</string>
+    <string name="login_form_password_label">Password</string>
+    <string name="login_form_password_placeholder">Your password</string>
+
+    <!--                                    Home Page                                           -->
+
+    <!--com.goodhabitstudio.libbyapp.libbyapp.Book Card-->
+    <string name="top_label">You are now reading</string>
+    <string name="placeholder_bookTitle">Book Title</string>
+    <string name="placeholder_bookAuthor">Book Author</string>
+    <string name="progress_label">Your Progress</string>
+    <string name="placeholder_progress">200/300</string>
+    <string name="readingDay_label">Reading Day</string>
+    <string name="placeholder_readingDay">Mon, Wed, Fri, Sun</string>
+    <string name="readingHour_label">Reading Time</string>
+    <string name="placeholder_readingHour">09.00, 12.30, 18.00, 21.00</string>
+    <string name="updateProgress_button">Update Progress</string>
+    <string name="readingSettings_button">Reading Settings</string>
+    <string name="home_emptyLibrary_card_top">It looks like you haven’t add any books and reading plan</string>
+    <string name="home_emptyLibrary_card_bottom">Start your awesome journey by tapping the “Add Books” button bellow.</string>
+
+    <!--com.goodhabitstudio.libbyapp.libbyapp.Book Target-->
+    <string name="change_target">Change My Target</string>
+    <string name="target_label">Hey, you have finished</string>
+    <string name="placeholder_finishedBooks">0</string>
+    <string name="placeholder_bookTarget">12</string>
+    <string name="slash">/</string>
+
+    <!--Current com.goodhabitstudio.libbyapp.libbyapp.Book Card-->
+    <string name="currentBook_topLabel">You have been reading this for </string>
+    <string name="placeholder_finished_pages">100</string>
+    <string name="placeholder_total_pages">244</string>
+    <string name="label_pages">pages</string>
+
+    <!--Finished com.goodhabitstudio.libbyapp.libbyapp.Book Card-->
+    <string name="finishedBook_topLabel">You read this for </string>
+
+    <!--Reading Plan-->
+    <string name="readingPlan_readingStart">Reading Start Date</string>
+    <string name="placeholder_readingPlan_readingStart">Monday, 13 November 2017</string>
+    <string name="readingPlan_toolbar_label">Reading Plan</string>
+    <string name="readingPlan_readingNotes_label">Reading Notes</string>
+    <string name="placeholder_readingPlan_readingNotes">You have no notes</string>
+    <string name="readingPlan_share_label">Share your experiences with others</string>
+    <string name="readingPlan_share_button">Share</string>
+
+    <!--                                Profile Page                                            -->
+    <string name="placeholder_profile_name"></string>
+    <string name="logout_label">Logout</string>
+
+    <!--Dialog Box-->
+    <string name="dialogBox1_title">How far have you progressed?</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="update_button">Update</string>
+    <string name="dialogBox2_title">How many books do you want to read this year?</string>
+
+    <!--Add Reading Plan-->
+    <string name="add_readingPlan">Add Reading Plan</string>
+    <string-array name="readingTime">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
